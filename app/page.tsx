@@ -3,7 +3,8 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nex
 // import { title } from "process";
 // import {AcmeLogo} from "./AcmeLogo.jsx";
 import { title, subtitle } from "@/components/primitives";
-
+import './page.css';
+import SplashScreen from "./splashScreen";
 
 export default function Home() {
   return (
@@ -30,9 +31,10 @@ export default function Home() {
     //     </NavbarItem>
     //   </NavbarContent>
     // </Navbar>
+    // <SplashScreen/>
     <div>
-      <h1 className={title({color: "violet"})}>HyperLapse</h1>
-      <p className={subtitle()}>Experience the HyperLapse</p>
+      <h1>Hyperlapse</h1>
+      <p>Experience the HyperLapse</p>
     </div>
   );
 }

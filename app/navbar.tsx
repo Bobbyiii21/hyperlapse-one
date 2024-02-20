@@ -5,10 +5,10 @@ const Navbar: React.FC = () => {
     return (
         <div className="navbar">
             <ul>
+                <li><a href="/customers"> Contact</a></li>
+                <li><a href="/features"> About Me</a></li>
                 <li><a href="/"> Home</a></li>
-                <li><a href="/features"> Features</a></li>
-                <li><a href="/customers"> Customers</a></li>
-            <img  src="https://upload.wikimedia.org/wikipedia/commons/3/31/Apple_logo_white.svg" alt="Image" className="navbar-image"/>
+            <img src="https://raw.githubusercontent.com/Bobbyiii21/hyperlapse-one/main/assets/HyperlapseWatermarkG_.png" alt="Image" className="navbar-image"/>
             </ul>
         </div>
     );

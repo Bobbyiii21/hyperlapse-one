@@ -1,10 +1,16 @@
+import {
+  Button,
+  Link,
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+} from "@nextui-org/react";
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
 // import { title } from "process";
 // import {AcmeLogo} from "./AcmeLogo.jsx";
-import { title, subtitle } from "@/components/primitives";
-import './page.css';
-import SplashScreen from "./splashScreen";
+import { subtitle, title } from "@/components/primitives";
+import "./page.css";
 
 export default function Home() {
   return (
@@ -32,9 +38,14 @@ export default function Home() {
     //   </NavbarContent>
     // </Navbar>
     // <SplashScreen/>
-    <div>
-      <h1>Hyperlapse</h1>
-      <p>Experience the HyperLapse</p>
+    <div className="page">
+      <p className={title({ size: "lg", color: "foreground" })}>
+        Experience the Hyperlapse
+      </p>
+      {/* <h1 className={title({ size: "sm" })}>Coming Soon!</h1> */}
+      <p className={subtitle()}>
+        We are working hard to bring you the best experience. Stay tuned!
+      </p>
     </div>
   );
 }

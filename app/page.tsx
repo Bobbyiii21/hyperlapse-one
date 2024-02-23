@@ -14,30 +14,6 @@ import "./page.css";
 
 export default function Home() {
   return (
-    // <Navbar>
-    //   <NavbarBrand>
-    //     {/* <AcmeLogo /> */}
-    //     <p className={title({color : "violet"})}>Hyperlapse</p>
-    //   </NavbarBrand>
-    //   <NavbarContent justify="end">
-    //     <NavbarItem>
-    //       <Link color="foreground" href="#">
-    //         Features
-    //       </Link>
-    //     </NavbarItem>
-    //     <NavbarItem isActive>
-    //       <Link href="#" aria-current="page">
-    //         Customers
-    //       </Link>
-    //     </NavbarItem>
-    //     <NavbarItem>
-    //       <Link color="foreground" href="#">
-    //         Integrations
-    //       </Link>
-    //     </NavbarItem>
-    //   </NavbarContent>
-    // </Navbar>
-    // <SplashScreen/>
     <div className="page">
       <p className={title({ size: "lg", color: "foreground" })}>
         The Hyperlapse

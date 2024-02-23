@@ -40,12 +40,13 @@ export default function Home() {
     // <SplashScreen/>
     <div className="page">
       <p className={title({ size: "lg", color: "foreground" })}>
-        Experience the Hyperlapse
+        The Hyperlapse
       </p>
       {/* <h1 className={title({ size: "sm" })}>Coming Soon!</h1> */}
       <p className={subtitle()}>
-        We are working hard to bring you the best experience. Stay tuned!
+        {/* We are working hard to bring you the best experience. Stay tuned! */}
       </p>
+      
     </div>
   );
 }

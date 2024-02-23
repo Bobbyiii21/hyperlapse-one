@@ -20,10 +20,10 @@ export default function RootLayout({
   return (
      <html lang="en" className='dark'>
       <body>
-        <Navbar />
         <Providers>
           {children}
         </Providers>
+        <Navbar />
       </body>
     </html>
   );

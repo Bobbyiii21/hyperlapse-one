@@ -14,15 +14,23 @@ import "./page.css";
 
 export default function Home() {
   return (
-    <div className="page">
-      <p className={title({ size: "lg", color: "foreground" })}>
-        The Hyperlapse
-      </p>
-      {/* <h1 className={title({ size: "sm" })}>Coming Soon!</h1> */}
-      <p className={subtitle()}>
-        {/* We are working hard to bring you the best experience. Stay tuned! */}
-      </p>
-      
+    <section className="flex flex-col items-center justify-center">
+  <div className="mt-20">
+    <h1 className={title({size:'lg'})}>The </h1>
+    <h1 className={title({ size:'lg'})}>Photographer</h1>
+    <div style={{height: '15px'}}></div> {/* Adjust the height as needed */}
+    <h1 className={title({size:'lg'})}>The </h1>
+    <h1 className={title({ size:'lg'})}>Programmer</h1>
+    <div style={{height: '15px'}}></div> {/* Adjust the height as needed */}
+    <h1 className={title({size:'lg'})}>The </h1>
+    <h1 className={title({ size:'lg'})}>Expert</h1>
+    <div style={{height: '15px'}}></div> {/* Adjust the height as needed */}
+    <h1 className={title({size:'lg'})}>The </h1>
+    <h1 className={title({color: 'foreground', size:'lg'})}>Hyperlapse</h1>
+    <div style={{height: '15px'}}></div> {/* Adjust the height as needed */}
+    <p className={subtitle()}>Experience the Hyperlapse.</p>
+    <p className={subtitle()}>Website coming soon!</p>
     </div>
+</section>
   );
 }

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="mt-10 flex-col items-center justify-center gap-4 px-5 py-10 md:py-10">
       <div className="justify-center text-center">
-        <h1 className="inline text-[50px] font-semibold tracking-tight md:text-[50px] md:text-[90px]">
+        <h1 className="inline text-[50px] font-semibold tracking-tight md:text-[90px]">
           The Photographer{" "}
         </h1>
         {/*<h1 className="text-[50px] md:text-[90px]">Photographer</h1>*/}

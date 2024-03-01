@@ -7,16 +7,16 @@ const Navbar: React.FC = () => {
         <div className="navbar">
             <ul>
                 <li>
-                    <a href="https://www.instagram.com/hyprlpse.him/"> Instagram</a>
+                    <a href="https://www.instagram.com/hyprlpse.him/">Instagram</a>
                 </li>
                 <li>
-                    <a href="/projects"> Projects</a>
+                    <a href="/projects">Projects</a>
                 </li>
                 <li>
-                    <a href="/about"> About Me</a>
+                    <a href="/about">About Me</a>
                 </li>
                 <li>
-                    <a href="/"> Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <button>
                     <img
@@ -26,7 +26,6 @@ const Navbar: React.FC = () => {
                     />
                     <a href="/"/>
                 </button>
-
             </ul>
         </div>
 );

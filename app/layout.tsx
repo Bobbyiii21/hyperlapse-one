@@ -4,12 +4,13 @@ import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react"
 import { Providers } from "./providers";
 import Navbar from "./navbar";
+import Footer from "./footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HyperLapse",
-  description: "Experience the HyperLapse",
+  title: "Hyperlapse",
+  description: "The official website of The Hyperlapse",
 };
 
 export default function RootLayout({
@@ -21,8 +22,10 @@ export default function RootLayout({
      <html lang="en" className='dark'>
       <body>
         <Providers>
+          
           {children}
           <Navbar />
+          <Footer />
         </Providers>
       </body>
     </html>

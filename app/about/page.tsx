@@ -53,8 +53,7 @@ export default function about() {
                 American Recognition Program
               </li>
               <div style={{ height: "15px" }}></div>
-
-              <li>2023 Georgia Governor's Honors Program Finalist</li>
+              <li>2023 Georgia Governor&apos;s Honors Program Finalist</li>
               <div style={{ height: "15px" }}></div>
               <li>2023 University of Georgia Certificate of Merit Recipient</li>
               <div style={{ height: "15px" }}></div>

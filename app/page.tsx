@@ -1,7 +1,6 @@
 import React from "react";
 import { title } from "@/components/primitives";
 import { Button } from "@nextui-org/react";
-import "./page.css";
 
 export default function Home() {
   return (
@@ -35,7 +34,7 @@ export default function Home() {
           </h1>
         </div>
         <div style={{ height: "55px" }}></div>
-        <div>
+        {/* <div>
           <ul className="flex justify-center items-center">
           <li>
             <a className="block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px] text-6xl" href="about">
@@ -43,7 +42,9 @@ export default function Home() {
             </a>
           </li>
           </ul>
-        </div>
+        </div> */} 
+        {/* Save for later */}
+        
       </div>
     </div>
   );

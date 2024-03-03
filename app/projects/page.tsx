@@ -53,7 +53,7 @@ export default function about() {
               <div style={{ height: "15px" }}></div>
               <h2 className="text-2xl leading-relaxed">
                 SmartGlass is a device that I designed, built, and programmed for science and engineering fairs during the 2023-2024 school year.
-                The device presents a novel and low-cost solution to assist people with Dementia. The device is a head-mounted system equipped with Raspberry Pi Zero 2 W, Raspberry Pi Camera 3, and three tactile buttons. The device can detect objects in diverse environments using computer vision and QR (Quick Response) codes. Based on the user's input, the device can relay information to the user audibly through bone conduction technology.
+                The device presents a novel and low-cost solution to assist people with Dementia. The device is a head-mounted system equipped with Raspberry Pi Zero 2 W, Raspberry Pi Camera 3, and three tactile buttons. The device can detect objects in diverse environments using computer vision and QR (Quick Response) codes. Based on the user&apos;s input, the device can relay information to the user audibly through bone conduction technology.
               </h2>
             </div>
           </li>

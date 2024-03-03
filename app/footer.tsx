@@ -3,8 +3,9 @@ import { Button } from "@nextui-org/react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="fixed inset-x-0 bottom-0 transform text-white text-center py-3">
+    <footer className="text-lg absolute inset-x-0 transform text-white text-center">
       <p>©{new Date().getFullYear()} Hyperlapse</p>
+      <p>Designed by Bobby Stephens in Atlanta, Georgia</p>
     </footer>
     );
 };

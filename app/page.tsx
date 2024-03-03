@@ -5,7 +5,7 @@ import "./page.css";
 
 export default function Home() {
   return (
-    <div className="mt-10 flex-col items-center justify-center gap-4 px-5 py-10 md:py-10">
+    <div className="mt-5 flex-col items-center justify-center gap-4 px-5 py-10 md:py-10">
       <div className="justify-center text-center">
         <h1 className="inline text-[50px] font-semibold tracking-tight md:text-[90px]">
           The Photographer{" "}
@@ -35,15 +35,14 @@ export default function Home() {
           </h1>
         </div>
         <div style={{ height: "55px" }}></div>
-        <div className="page">
+        <div>
+          <ul className="flex justify-center items-center">
           <li>
-            <a
-              href="/about"
-              className="text-[50px] font-semibold md:text-[80px]"
-            >
+            <a className="block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px] text-6xl" href="about">
               →
             </a>
           </li>
+          </ul>
         </div>
       </div>
     </div>

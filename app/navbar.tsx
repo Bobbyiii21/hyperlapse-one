@@ -20,14 +20,14 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <div className="md:hidden absolute w-full mt-10 flex justify-center items-center">
           <ul className="list m-0 p-0 overflow-hidden items-center text-center">
-            <li>
+            {/* <li>
               <a
                 className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
                 href="https://www.instagram.com/hyprlpse.him/"
               >
                 Instagram
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
@@ -56,14 +56,14 @@ const Navbar: React.FC = () => {
         </div>
       )}
       <ul className="hidden md:block list-none m-0 p-0 overflow-hidden">
-        <li className="float-right">
+        {/* <li className="float-right">
           <a
             className="block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
             href="https://www.instagram.com/hyprlpse.him/"
           >
             Instagram
           </a>
-        </li>
+        </li> */}
         <li className="float-right">
           <a
             className="block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"

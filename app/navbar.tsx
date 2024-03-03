@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
           </a>
         </li>
         <img
-          src={Hyperlapse_W}
+          src="../assets/Hyperlapse_W.png"
           alt="Image"
           className="w-[50px] h-[50px] float-left"
         />

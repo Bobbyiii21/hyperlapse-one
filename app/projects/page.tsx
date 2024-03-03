@@ -61,6 +61,18 @@ export default function about() {
           <li>
             <div className="rounded-lg bg-[#111] p-4 border-1 border-neutral-500">
               <h2 className="text-3xl leading-relaxed font-semibold">
+                Photography
+              </h2>
+              <div style={{ height: "15px" }}></div>
+              <h2 className="text-2xl leading-relaxed">
+              Cooking 👨‍🍳 ...
+              </h2>
+            </div>
+          </li>
+          <div style={{ height: "25px" }}></div>
+          <li>
+            <div className="rounded-lg bg-[#111] p-4 border-1 border-neutral-500">
+              <h2 className="text-3xl leading-relaxed font-semibold">
                 VEXCode Pro v5 &amp; PROS Video Tutorials
               </h2>
               <div style={{ height: "15px" }}></div>

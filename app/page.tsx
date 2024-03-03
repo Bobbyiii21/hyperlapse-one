@@ -23,7 +23,7 @@ export default function Home() {
     <h1 className={title({ size:'lg'})}>Programmer</h1>
     <div style={{height: '15px'}}></div> {/* Adjust the height as needed */}
     <h1 className={title({size:'lg'})}>The </h1>
-    <h1 className={title({ size:'lg'})}>Expert</h1>
+    <h1 className={title({ size:'lg'})}>Creator</h1>
     <div style={{height: '15px'}}></div> {/* Adjust the height as needed */}
     <h1 className={title({size:'lg'})}>The </h1>
     <h1 className={title({color: 'foreground', size:'lg'})}>Hyperlapse</h1>

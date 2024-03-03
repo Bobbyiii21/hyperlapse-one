@@ -22,9 +22,8 @@ export default function RootLayout({
      <html lang="en" className='dark'>
       <body>
         <Providers>
-          
-          {children}
           <Navbar />
+          {children}
           <Footer />
         </Providers>
       </body>

@@ -9,21 +9,14 @@ export default function Home() {
         <h1 className="inline text-[50px] font-semibold tracking-tight md:text-[90px]">
           The Photographer{" "}
         </h1>
-        {/*<h1 className="text-[50px] md:text-[90px]">Photographer</h1>*/}
         <div style={{ height: "15px" }}></div>{" "}
-        {/* Adjust the height as needed */}
         <h1 className="inline text-[50px] font-semibold tracking-tight md:text-[90px]">
           The Programmer
         </h1>
-        {/*<h1 className="text-[50px] md:text-[90px]">Programmer</h1>*/}
         <div style={{ height: "15px" }}></div>{" "}
-        {/* Adjust the height as needed */}
         <h1 className="inline text-[50px] font-semibold tracking-tight md:text-[90px]">
           The Creator
         </h1>
-        {/* <h1 className={title({size:'lg'})}>The </h1>
-        <h1 className={title({ size:'lg'})}>Expert</h1>
-        <div style={{height: '15px'}}></div> Adjust the height as needed */}
         <div style={{ height: "15px" }}></div>{" "}
         <div>
           <h1 className="inline text-[50px] font-semibold tracking-tight md:text-[90px]">
@@ -44,7 +37,6 @@ export default function Home() {
           </ul>
         </div> */} 
         {/* Save for later */}
-        
       </div>
     </div>
   );

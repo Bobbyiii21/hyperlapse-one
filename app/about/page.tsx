@@ -50,7 +50,7 @@ export default function about() {
               <div style={{ height: "15px" }}></div>
 
               <li>
-                Nationally recognized in the Collegeboard National African
+                Recognized in the Collegeboard National African
                 American Recognition Program
               </li>
               <div style={{ height: "15px" }}></div>

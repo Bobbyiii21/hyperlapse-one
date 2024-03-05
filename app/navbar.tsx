@@ -9,9 +9,8 @@ const Navbar: React.FC = () => {
   const [isSocialOpen, setIsSocialOpen] = useState(false);
   return (
     <div
-      className={`fixed w-full top-0 bg-black text-white p-[10px] ${
-        isOpen ? "h-[100vh]" : "h-auto"
-      }`}
+      className={`fixed w-full top-0 bg-black text-white p-[10px] ${isOpen ? "h-[100vh]" : "h-auto"
+        }`}
     >
       <button
         className="md:hidden float-right block px-2 mt-1"
@@ -46,9 +45,9 @@ const Navbar: React.FC = () => {
             <li>
               <a
                 className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
-                href="/projects"
+                href="/work"
               >
-                Projects
+                Work
               </a>
             </li>
 
@@ -75,9 +74,9 @@ const Navbar: React.FC = () => {
         <li className="float-right">
           <a
             className="block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
-            href="/projects"
+            href="/work"
           >
-            Projects
+            Work
           </a>
         </li>
         <li className="float-right">

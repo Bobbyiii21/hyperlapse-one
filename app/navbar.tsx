@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
                 <button>
                   <a
                     className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
-                    href="bobbyiii@outlook.com"
+                    href="mailto:bobbyiii@outlook.com"
                   >
                     Email
                   </a>
@@ -172,7 +172,7 @@ const Navbar: React.FC = () => {
             <button>
               <a
                 className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
-                href="bobbyiii@outlook.com"
+                href="mailto:bobbyiii@outlook.com"
               >
                 Email
               </a>

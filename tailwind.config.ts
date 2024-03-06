@@ -70,10 +70,20 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "fade-in": {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
+        "rainbow-to-dark": {
+          from: { 'background-size': '200% 200%', 'background-position': 'left center' },
+          to: { 'background-size': '200% 200%', 'background-position': 'right center' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in .8s ease-in",
+        "rainbow-to-dark": "rainbow-to-dark 2s ease-in infinite",
       },
     },
   },

@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
      <html lang="en" className='dark'>
-      <body>
+      <body className="animate-fade-in">
         <Providers>
           <Navbar />
           {children}

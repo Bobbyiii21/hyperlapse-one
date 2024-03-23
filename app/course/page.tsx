@@ -1,11 +1,5 @@
 "use client";
 import  AccordionItem  from "./Accordion";
-// import {
-//   Accordion,
-//   AccordionContent,
-//   AccordionItem,
-//   AccordionTrigger,
-// } from "@/components/ui/accordion"
 export default function course() {
   const sampleContent = () => {
     return (
@@ -24,7 +18,7 @@ export default function course() {
     <div className="mt-5 flex-col items-center justify-center gap-4 px-5 py-10 md:py-10">
       <div className="justify-center text-center">
         <h1 className="inline text-[50px] font-semibold tracking-tight md:text-[90px]">
-          VEX Programing Series
+          VEX Video Tutorials
         </h1>
         <h2 className="text-[50px] font-semibold tracking-tight md:text-5xl">
           VEXCode Pro V5
@@ -34,8 +28,12 @@ export default function course() {
       <div className="lg:mx-52 ">
           <AccordionItem
               title="Lesson 1: Installation"
-              subtitle="Windows and Mac Installation in VSCode">
-              {sampleContent()}
+              subtitle="Installation of VSCode">
+              <div>
+                    <p>
+                        This guide will walk you through the installation of Visual Studio Code and the VEXCode Pro V5 extension.
+                    </p>
+              </div>
               <div style={{height: "25px"}}></div>
               <div className="flex justify-around items-center">
                   <a href="/course/vexcode/windows/u1">
@@ -52,8 +50,12 @@ export default function course() {
           <div style={{height: "25px"}}></div>
           <AccordionItem
               title="Lesson 2: VEXCode Pro Basics"
-              subtitle="This guide will teach you the essentials, including the creation of devices and functions">
-              {sampleContent()}
+              subtitle="the creation of projects, devices, and functions ">
+              <div>
+                    <p>
+                        This guide will walk you through the installation of Visual Studio Code and the VEXCode Pro V5 extension.
+                    </p>
+              </div>
               <div style={{height: "25px"}}></div>
               <div className="flex justify-around items-center">
                   <a href="/course/vexcode/windows/u2">

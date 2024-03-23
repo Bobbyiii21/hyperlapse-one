@@ -232,7 +232,7 @@ const Navbar: React.FC = () => {
           </li>
           <a href="/">
             <img
-              src="HyperlapseW.png"
+              src="/HyperlapseW.png"
               alt="Image"
               className="w-[50px] h-auto float-left"
             />

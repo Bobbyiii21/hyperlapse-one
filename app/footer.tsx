@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <p>©{new Date().getFullYear()} Hyperlapse</p>
       <p>Designed by Bobby R. Stephens III in Atlanta, Georgia</p>
       <img 
-      src="HyperlapseWFull.png"
+      src="/HyperlapseWFull.png"
       alt="Hyperlapse Logo"
       className="w-[200px] h-auto items-center justify-center mx-auto mt-4  opacity-35 "
       />

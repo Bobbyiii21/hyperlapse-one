@@ -24,6 +24,7 @@ export default function projects() {
                 control code. My most recent project includes code for the
                 2023-2024 VEX Robotics Competition Game, Over Under.
               </h2>
+              <div style={{ height: "15px" }}></div>
               <div className="flex justify-end">
               <a href="https://github.com/Bobbyiii21/LEBRON_JAMES">
                   <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
@@ -51,6 +52,7 @@ export default function projects() {
                 written in C++ and Python. The companion app was written in
                 React Native.
               </h2>
+              <div style={{ height: "15px" }}></div>
               <div className="flex justify-end">
                 <a href="https://github.com/Bobbyiii21/MyPlanter-GHP">
                   <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
@@ -79,6 +81,7 @@ export default function projects() {
                 information to the user audibly through bone conduction
                 technology.
               </h2>
+              <div style={{ height: "15px" }}></div>
               <div className="flex justify-end">
                 <a href="Log_Book.pdf">
                   <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
@@ -102,6 +105,7 @@ export default function projects() {
               <h2 className="text-lg md:text-2xl leading-relaxed">
                 My Featured works are currently on display on my Instagram page @hyprlpse.vision. I am currently working on a page to display more of my work, so stay tuned!
               </h2>
+              <div style={{ height: "15px" }}></div>
               <div className="flex justify-end">
                 <a href="https://www.instagram.com/hyprlpse.vision/">
                   <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
@@ -119,7 +123,16 @@ export default function projects() {
               </h2>
               <div style={{ height: "15px" }}></div>
               <h2 className="text-lg md:text-2xl leading-relaxed">Currently Reording 🔴</h2>
+              <div style={{ height: "15px" }}></div>
+              <div className="flex justify-end">
+                <a href="/course">
+                  <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
+                    Preview the Course →
+                  </button>
+                </a>
+              </div>
             </div>
+             
           </li>
         </ul>
       </div>

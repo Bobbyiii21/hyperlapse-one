@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
                 <button>
                   <a
                     className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
-                    href="mailto:bobbyiii@outlook.com"
+                    href="bobbyiii@outlook.com"
                   >
                     Email
                   </a>
@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
                   </a>
                 </button>
               </li>
-              {/* <li>
+              <li>
                 <button>
                   <a
                     className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
@@ -75,7 +75,9 @@ const Navbar: React.FC = () => {
                     LinkedIn
                   </a>
                 </button>
-              </li> */}
+              </li>
+              <li>
+              </li>
               <li>
                 <button onClick={handleSocialClick}>
                   <p className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]">
@@ -138,7 +140,7 @@ const Navbar: React.FC = () => {
               </p>
             </button>
           </li>
-          {/* <li className="float-right">
+          <li className="float-right">
             <button>
               <a
                 className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
@@ -147,7 +149,7 @@ const Navbar: React.FC = () => {
                 LinkedIn
               </a>
             </button>
-          </li> */}
+          </li>
           <li className="float-right">
             <button>
               <a
@@ -172,7 +174,7 @@ const Navbar: React.FC = () => {
             <button>
               <a
                 className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
-                href="mailto:bobbyiii@outlook.com"
+                href="bobbyiii@outlook.com"
               >
                 Email
               </a>

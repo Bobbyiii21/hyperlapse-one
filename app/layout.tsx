@@ -5,7 +5,6 @@ import { NextUIProvider } from "@nextui-org/react"
 import { Providers } from "./providers";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +26,6 @@ export default function RootLayout({
           {children}
           <Footer />
         </Providers>
-        <Analytics/>
       </body>
     </html>
   );

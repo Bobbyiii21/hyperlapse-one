@@ -118,7 +118,7 @@ export default function projects() {
                 VEXCode Pro V5 &amp; PROS Video Tutorials
               </h2>
               <div style={{ height: "15px" }}></div>
-              <h2 className="text-lg md:text-2xl leading-relaxed">Currently Recording 🔴</h2>
+              <h2 className="text-lg md:text-2xl leading-relaxed">Currently Reording 🔴</h2>
             </div>
           </li>
         </ul>

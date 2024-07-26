@@ -17,12 +17,12 @@ const Navbar: React.FC = () => {
   };
   return (
     <div
-      className={`fixed w-full top-0 bg-black text-white p-[10px] ${
+      className={`fixed top-0 z-50 w-full bg-black p-[10px] text-white ${
         isOpen ? "h-[100vh]" : "h-auto"
       }`}
     >
       <button
-        className="md:hidden float-right block px-2 mt-1"
+        className="float-right mt-1 block px-2 md:hidden"
         onClick={() => {
           handleMenuClick();
           setIsSocialOpen(false);
@@ -35,52 +35,51 @@ const Navbar: React.FC = () => {
         )}
       </button>
       {isOpen && ( // if open
-        <div className="md:hidden absolute w-full mt-10 flex justify-center items-center">
+        <div className="absolute mt-10 flex w-full items-center justify-center md:hidden">
           {isSocialOpen ? (
-            <ul className="list m-0 p-0 overflow-hidden items-center text-center">
+            <ul className="list m-0 items-center overflow-hidden p-0 text-center">
               <li>
                 <button>
                   <a
-                    className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                    className="block rounded-[10px] px-[14px] py-[16px] text-center text-2xl text-white no-underline hover:bg-[#111]"
                     href="tel:678-235-4052"
                   >
                     Phone
                   </a>
                 </button>
               </li>
-                <button>
-                  <a
-                    className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
-                    href="bobbyiii@outlook.com"
-                  >
-                    Email
-                  </a>
-                </button>
+              <button>
+                <a
+                  className="block rounded-[10px] px-[14px] py-[16px] text-center text-2xl text-white no-underline hover:bg-[#111]"
+                  href="bobbyiii@outlook.com"
+                >
+                  Email
+                </a>
+              </button>
               <li>
                 <button>
                   <a
-                    className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
-                    href="https://www.instagram.com/hyprlpse.vision/"
-                  >
-                    Instagram
-                  </a>
-                </button>
-              </li>
-              <li>
-                <button>
-                  <a
-                    className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
-                    href="/linkedin"
+                    className="block rounded-[10px] px-[14px] py-[16px] text-center text-2xl text-white no-underline hover:bg-[#111]"
+                    href="https://www.linkedin.com/in/bobbyrstephens/"
                   >
                     LinkedIn
                   </a>
                 </button>
               </li>
-              <li>
-              </li>
+              {/* <li>
+                <button>
+                  <a
+                    className="block rounded-[10px] px-[14px] py-[16px] text-center text-2xl text-white no-underline hover:bg-[#111]"
+                    href="/linkedin"
+                  >
+                    LinkedIn
+                  </a>
+                </button>
+              </li> */}
+              <li></li>
               <li>
                 <button onClick={handleSocialClick}>
-                  <p className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]">
+                  <p className="block rounded-[10px] px-[14px] py-[16px] text-center text-2xl text-white no-underline hover:bg-[#111]">
                     Return
                   </p>
                 </button>
@@ -88,11 +87,11 @@ const Navbar: React.FC = () => {
             </ul>
           ) : (
             // if social is not open
-            <ul className="list m-0 p-0 overflow-hidden items-center text-center">
+            <ul className="list m-0 items-center overflow-hidden p-0 text-center">
               <li>
                 <button>
                   <a
-                    className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                    className="block rounded-[10px] px-[14px] py-[16px] text-center text-2xl text-white no-underline hover:bg-[#111]"
                     href="/"
                   >
                     Home
@@ -102,7 +101,7 @@ const Navbar: React.FC = () => {
               <li>
                 <button>
                   <a
-                    className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                    className="block rounded-[10px] px-[14px] py-[16px] text-center text-2xl text-white no-underline hover:bg-[#111]"
                     href="/about"
                   >
                     About Me
@@ -112,7 +111,7 @@ const Navbar: React.FC = () => {
               <li>
                 <button>
                   <a
-                    className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                    className="block rounded-[10px] px-[14px] py-[16px] text-center text-2xl text-white no-underline hover:bg-[#111]"
                     href="/work"
                   >
                     Work
@@ -122,7 +121,7 @@ const Navbar: React.FC = () => {
 
               <li>
                 <button onClick={handleSocialClick}>
-                  <a className="text-2xl block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]">
+                  <a className="block rounded-[10px] px-[14px] py-[16px] text-center text-2xl text-white no-underline hover:bg-[#111]">
                     Social
                   </a>
                 </button>
@@ -132,10 +131,10 @@ const Navbar: React.FC = () => {
         </div>
       )}
       {isSocialOpen ? (
-        <ul className="hidden md:block list-none m-0 p-0 overflow-hidden">
+        <ul className="m-0 hidden list-none overflow-hidden p-0 md:block">
           <li className="float-right">
             <button onClick={handleSocialClick}>
-              <p className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]">
+              <p className="lg:text-md block rounded-[10px] px-[14px] py-[16px] text-center font-semibold text-white no-underline hover:bg-[#111]">
                 Return
               </p>
             </button>
@@ -143,8 +142,8 @@ const Navbar: React.FC = () => {
           <li className="float-right">
             <button>
               <a
-                className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
-                href="/linkedin"
+                className="lg:text-md block rounded-[10px] px-[14px] py-[16px] text-center font-semibold text-white no-underline hover:bg-[#111]"
+                href="https://www.linkedin.com/in/bobbyrstephens"
               >
                 LinkedIn
               </a>
@@ -153,7 +152,7 @@ const Navbar: React.FC = () => {
           <li className="float-right">
             <button>
               <a
-                className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                className="lg:text-md block rounded-[10px] px-[14px] py-[16px] text-center font-semibold text-white no-underline hover:bg-[#111]"
                 href="https://www.instagram.com/hyprlpse.vision/"
               >
                 Instagram
@@ -163,7 +162,7 @@ const Navbar: React.FC = () => {
           <li className="float-right">
             <button>
               <a
-                className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                className="lg:text-md block rounded-[10px] px-[14px] py-[16px] text-center font-semibold text-white no-underline hover:bg-[#111]"
                 href="tel:678-235-4052"
               >
                 Phone
@@ -173,7 +172,7 @@ const Navbar: React.FC = () => {
           <li className="float-right">
             <button>
               <a
-                className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                className="lg:text-md block rounded-[10px] px-[14px] py-[16px] text-center font-semibold text-white no-underline hover:bg-[#111]"
                 href="bobbyiii@outlook.com"
               >
                 Email
@@ -184,16 +183,16 @@ const Navbar: React.FC = () => {
             <img
               src="HyperlapseW.png"
               alt="Image"
-              className="w-[50px] h-auto float-left"
+              className="float-left h-auto w-[50px]"
             />
           </a>
         </ul>
       ) : (
-        <ul className="hidden md:block list-none m-0 p-0 overflow-hidden">
+        <ul className="m-0 hidden list-none overflow-hidden p-0 md:block">
           <li className="float-right">
             <button onClick={handleSocialClick}>
               <p
-                className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                className="lg:text-md block rounded-[10px] px-[14px] py-[16px] text-center font-semibold text-white no-underline hover:bg-[#111]"
                 //href="https://www.instagram.com/hyprlpse.vision/"
               >
                 Social
@@ -203,7 +202,7 @@ const Navbar: React.FC = () => {
           <li className="float-right">
             <button>
               <a
-                className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                className="lg:text-md block rounded-[10px] px-[14px] py-[16px] text-center font-semibold text-white no-underline hover:bg-[#111]"
                 href="/work"
               >
                 Work
@@ -213,7 +212,7 @@ const Navbar: React.FC = () => {
           <li className="float-right">
             <button>
               <a
-                className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                className="lg:text-md block rounded-[10px] px-[14px] py-[16px] text-center font-semibold text-white no-underline hover:bg-[#111]"
                 href="/about"
               >
                 About Me
@@ -223,7 +222,7 @@ const Navbar: React.FC = () => {
           <li className="float-right">
             <button>
               <a
-                className="font-semibold lg:text-md block text-white text-center px-[14px] py-[16px] no-underline hover:bg-[#111] rounded-[10px]"
+                className="lg:text-md block rounded-[10px] px-[14px] py-[16px] text-center font-semibold text-white no-underline hover:bg-[#111]"
                 href="/"
               >
                 Home
@@ -234,7 +233,7 @@ const Navbar: React.FC = () => {
             <img
               src="/HyperlapseW.png"
               alt="Image"
-              className="w-[50px] h-auto float-left"
+              className="float-left h-auto w-[50px]"
             />
           </a>
         </ul>

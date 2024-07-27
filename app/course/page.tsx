@@ -38,13 +38,13 @@ export default function course() {
           </div>
           <div style={{ height: "25px" }}></div>
           <div className="flex justify-around items-center">
-            <a href="/course/vexcode/windows/u1">
+            <a href="/course/vexcode/windows/u1" className="w-full">
             {/*TODO: 'Remove other operating systems and Flex Width windows button' */}
-              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
+              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1 w-full">
                 Windows →
               </button>
             </a>
-            <a href="/course/vexcode/mac/u1">
+            {/* <a href="/course/vexcode/mac/u1">
               <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
                 MacOS →
               </button>
@@ -53,7 +53,7 @@ export default function course() {
               <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
                 Debian →
               </button>
-            </a>
+            </a> */}
           </div>
         </AccordionItem>
         <div style={{ height: "25px" }}></div>
@@ -69,22 +69,13 @@ export default function course() {
           </div>
           <div style={{ height: "25px" }}></div>
           <div className="flex justify-around items-center">
-            <a href="/course/vexcode/windows/u2">
-              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
+            <a href="/course/vexcode/windows/u2" className="w-full">
+            {/*TODO: 'Remove other operating systems and Flex Width windows button' */}
+              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1 w-full">
                 Windows →
               </button>
             </a>
-            <a href="/course/vexcode/mac/u2">
-              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
-                MacOS →
-              </button>
-            </a>
-            <a href="/course/vexcode/debian/u2">
-              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
-                Debian →
-              </button>
-            </a>
-          </div>
+            </div>
         </AccordionItem>
         <div style={{ height: "25px" }}></div>
         <AccordionItem
@@ -105,22 +96,13 @@ export default function course() {
           </div>
           <div style={{ height: "25px" }}></div>
           <div className="flex justify-around items-center">
-            <a href="/course/vexcode/windows/u3">
-              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
+            <a href="/course/vexcode/windows/u3" className="w-full">
+            {/*TODO: 'Remove other operating systems and Flex Width windows button' */}
+              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1 w-full">
                 Windows →
               </button>
             </a>
-            <a href="/course/vexcode/mac/u3">
-              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
-                MacOS →
-              </button>
-            </a>
-            <a href="/course/vexcode/debian/u3">
-              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
-                Debian →
-              </button>
-            </a>
-          </div>
+            </div>
         </AccordionItem>
         <div style={{ height: "25px" }}></div>
         <AccordionItem
@@ -138,26 +120,17 @@ export default function course() {
           </div>
           <div style={{ height: "25px" }}></div>
           <div className="flex justify-around items-center">
-            <a href="/course/vexcode/windows/u4">
-              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
+            <a href="/course/vexcode/windows/u4" className="w-full">
+            {/*TODO: 'Remove other operating systems and Flex Width windows button' */}
+              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1 w-full">
                 Windows →
               </button>
             </a>
-            <a href="/course/vexcode/mac/u4">
-              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
-                MacOS →
-              </button>
-            </a>
-            <a href="/course/vexcode/debian/u4">
-              <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
-                Debian →
-              </button>
-            </a>
-          </div>
+            </div>
         </AccordionItem>
         <div style={{ height: "25px" }}></div>
       </div>
-      <div className="justify-center text-center">
+      {/* <div className="justify-center text-center">
         <h2 className="text-[50px] font-semibold tracking-tight md:text-5xl">
           PROS
         </h2>
@@ -227,7 +200,7 @@ export default function course() {
         </AccordionItem>
         <div style={{ height: "25px" }}></div>
         <AccordionItem
-          title="Lesson 3: Introduction to JAR Template"
+          title="Lesson 3: Introduction to EZ Template"
           subtitle="Intro to EZ Template & Guided Walkthrough"
         >
           <div>
@@ -290,7 +263,7 @@ export default function course() {
           </div>
         </AccordionItem>
         <div style={{ height: "25px" }}></div>
-      </div>
+      </div> */}
     </div>
   );
 }

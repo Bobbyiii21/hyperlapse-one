@@ -133,7 +133,7 @@ export default function course() {
               to initialize Git and use GitHub to store and share your code.
               This is a crucial skill for any programmer, and I highly recommend
               you learn it to create an organized system of incremental changes
-              for your team's notebook.
+              for your team&apos;s notebook.
             </p>
           </div>
           <div style={{ height: "25px" }}></div>
@@ -267,7 +267,7 @@ export default function course() {
               to initialize Git and use GitHub to store and share your code.
               This is a crucial skill for any programmer, and I highly recommend
               you learn it to create an organized system of incremental changes
-              for your team's notebook.
+              for your team&apos;s notebook.
             </p>
           </div>
           <div style={{ height: "25px" }}></div>

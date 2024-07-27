@@ -122,17 +122,23 @@ export default function projects() {
                 VEXCode Pro V5 &amp; PROS Video Tutorials
               </h2>
               <div style={{ height: "15px" }}></div>
-              <h2 className="text-lg md:text-2xl leading-relaxed">Currently Reording 🔴</h2>
+              <h2 className="text-lg md:text-2xl leading-relaxed">
+                I am currently working on a series of video tutorials to help
+                beginners learn how to program VEX Robotics Competition robots
+                using VEXCode Pro V5 and PROS. The tutorials will cover topics
+                such as setting up the development environment, creating
+                autonomous and driver control code, and debugging common issues.
+                Currently, only VEXcode Pro V5 tutorials for Windows are available.
+              </h2>
               <div style={{ height: "15px" }}></div>
               <div className="flex justify-end">
                 <a href="/course">
                   <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
-                    Preview the Course →
+                    Learn More →
                   </button>
                 </a>
               </div>
             </div>
-             
           </li>
         </ul>
       </div>

@@ -39,7 +39,7 @@ export default function course() {
           <div style={{ height: "25px" }}></div>
           <div className="flex justify-around items-center">
             <a href="/course/vexcode/windows/u1">
-            // TODO: 'Remove other operating systems and Flex Width windows button'
+            {/*TODO: 'Remove other operating systems and Flex Width windows button' */}
               <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
                 Windows →
               </button>

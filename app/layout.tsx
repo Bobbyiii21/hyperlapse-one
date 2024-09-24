@@ -6,6 +6,8 @@ import { Providers } from "./providers";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +28,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Analytics />
+          <SpeedInsights />
           <Footer />
         </Providers>
         

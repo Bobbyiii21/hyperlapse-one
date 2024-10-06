@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.15.11",
     "@nextui-org/button": "^2.0.26",
     "@nextui-org/react": "^2.2.9",
@@ -21,6 +23,7 @@
     "@vercel/speed-insights": "^1.0.12",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "emotion": "^11.0.0",
     "framer-motion": "^11.0.5",
     "lucide-react": "^0.331.0",
     "next": "^14.2.14",

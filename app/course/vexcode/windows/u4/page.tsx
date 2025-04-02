@@ -1,7 +1,6 @@
 import React from "react";
 import "./page.css";
 let VexCode_Win_Vid4 = "https://firebasestorage.googleapis.com/v0/b/hyperlapseone.appspot.com/o/Video%204.mp4?alt=media&token=6c4d1d99-a5ed-4abf-a230-8f963fd09e31";
-import Video from "next-video";
 
 export default function Home() {
   return (

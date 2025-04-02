@@ -19,7 +19,7 @@ export default function about() {
             2022, primarily capturing sports events and portraits.
           </h2> */}
           <h2 className="text-lg md:text-2xl leading-relaxed">
-            Thank you for visiting my website! My name is Bobby Stephens, I'm from Covington, Georgia, and I am a
+            Thank you for visiting my website! My name is Bobby Stephens, I&apos;m from Covington, Georgia, and I am a
             first-year student at Georgia Tech, majoring in Computer Engineering with a
             concetration in Distributed Systems and Software design, as well as Systems
             and Architecture. Currently, I am interested in pursuing a career in
@@ -53,11 +53,11 @@ export default function about() {
         </h1>
         <div style={{ height: "15px" }}></div>
         <h2 className="text-lg md:text-2xl leading-relaxed">
-          In the next five years, and If all goes well, I plan to graduate from Georgia Tech with a Master's degree in Computer
-          Engineering, with having completed multiple internships. If I feel the need to, I will continue my education, pursuing a
+          In the next five years, and If all goes well, I plan to graduate from Georgia Tech with a Master&apos;s degree in Computer
+          Engineering, with having completed multiple internships. If needed, I will continue my education, pursuing a
           Mastors degree in Computer Science. With my degree, I plan to obtain a full-time position at a reputable company, such as
           Amazon or Google, as a Software or Embedded Systems Engineer, where I can work with a team of talented individuals focused on
-          making a positive impact on people's lives.
+          making a positive impact on people&apos;s lives.
         </h2>
         <div style={{ height: "15px" }}></div>
         <h1 className="text-[35px] md:text-[50px] tracking-tight inline font-semibold">
@@ -118,8 +118,8 @@ export default function about() {
         </div>
         <div style={{ height: "15px" }}></div>
         <h2 className="text-lg md:text-2xl leading-relaxed">
-          To continue exploring my page, please navigate to the "Work" section, where you can find some of my
-          feature projects, as well as my resume. If you would like to get in touch with me, please visit the "Contact" section.
+          To continue exploring my page, please navigate to the &quot;Work&quot; section, where you can find some of my
+          feature projects, as well as my resume. If you would like to get in touch with me, please visit the &quot;Contact&quot; section.
         </h2>
 
 

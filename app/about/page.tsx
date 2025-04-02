@@ -9,33 +9,67 @@ export default function about() {
         </h1>
         
         <div className="rounded-lg p-4 ">
-          <h2 className="text-lg md:text-2xl leading-relaxed">
+          {/* <h2 className="text-lg md:text-2xl leading-relaxed">
             My name is Bobby Stephens, and I am a passionate photographer and
             programmer. Since 2020, I have been studying programming languages
             such as C++, Python, Java, and JavaScript. On the side, I have
             explored multiple typesetting languages, such as LaTeX and Markdown.
             Additionally, I have been studying photography and videography since
             2022, primarily capturing sports events and portraits.
+          </h2> */}
+          <h2 className="text-lg md:text-2xl leading-relaxed">
+            Thank you for visiting my website! My name is Bobby Stephens, I'm from Covington, Georgia, and I am a
+            first-year student at Georgia Tech, majoring in Computer Engineering with a
+            concetration in Distributed Systems and Software design, as well as Systems
+            and Architecture. Currently, I am interested in pursuing a career in
+            software engineering, with an emphasis on embedded systems and robotics. During
+            my time at Georgia Institute of Technology, I have been involved in various organizations, including
+            the Georgia Tech Motorcycle Club, where I have aided in the expansion of the organization
+            as well as WebDev @ GT, where I have had the privlege as serving as a Project Lead
+            for the BlackMarket project, a platform for individuals and companies can sell and
+            manage their products. In this position, I have learned valuable skills in project
+            management, team collaboration, and time management. Beginning in the Summer of 2025,
+            I will be interning at Amazon as a Software Engineer, where I plan to apply my skills and
+            knowledge to real-world projects and gain valuable experience in the tech industry.
+
           </h2>
           <div style={{ height: "15px" }}></div>
           <h2 className="text-lg md:text-2xl leading-relaxed">
-            Aside from my hobbies, I am a student at Newton College and Career
-            Academy in Covington, Georgia. There, I am involved in organizations
-            such as the Technology Student Association, VEX Robotics, and Future
-            Business Leaders of America. Additionally, I volunteer with the STEM
-            Extension Project, a program that provides STEM Education in the
-            form of small workshops to elementary and middle school students. I
-            also volunteer with the Newton County Drug Free Coalition, where I
-            assist in the annual Kick The Habit event which promotes a healthy
-            lifestyle.
+            In my free time, I enjoy exploring new technologies, riding my motorcycle, working on personal projects, and
+            spending time with friends and family. I am always eager to learn and grow, both personally
+            and professionally.
           </h2>
         </div>
         <div style={{ height: "15px" }}></div>
-        <h1 className="text-3xl md:text-[54px] tracking-tight inline p-[20px] text-center font-semibold">
+          <h2 className="text-lg md:text-2xl leading-relaxed">
+            The purpose of this website is to showcase and maintain a digital portfolio of my work and
+            accomplishments. Inspired by a great friend of mine, I decided to create this website using
+            Next.js and Tailwind CSS, which has allowed me to learn new skills and technologies.
+          </h2>
+          <div style={{ height: "15px" }}></div>
+          <h1 className="text-[35px] md:text-[50px] tracking-tight inline font-semibold">
+            My 5-Year Plan
+          </h1>
+          <div style={{ height: "15px" }}></div>
+          <h2 className="text-lg md:text-2xl leading-relaxed">
+            In the next five years, and If all goes well, I plan to graduate from Georgia Tech with a Master's degree in Computer
+            Engineering, with having completed multiple internships. If I feel the need to, I will continue my education, pursuing a
+            Mastors degree in Computer Science. With my degree, I plan to obtain a full-time position at a reputable company, such as
+            Amazon or Google, as a Software or Embedded Systems Engineer, where I can work with a team of talented individuals focused on
+            making a positive impact on people's lives. 
+          </h2>
+          <div style={{ height: "15px" }}></div>
+          <h2 className="text-lg md:text-2xl leading-relaxed">
+            To continue exploring my page, please navigate to the "Work" section, where you can find some of my
+            feature projects, as well as my resume. If you would like to get in touch with me, please visit the "Contact" section.
+          </h2>
+
+
+        {/* <h1 className="text-3xl md:text-[54px] tracking-tight inline p-[20px] text-center font-semibold">
           Accomplishments: High School
         </h1>
-        <div style={{ height: "15px" }}></div>
-        <div className="rounded-lg p-4 ">
+        <div style={{ height: "15px" }}></div> */}
+        {/* <div className="rounded-lg p-4 ">
           <h2 className="text-lg md:text-2xl leading-relaxed flex justify-center">
             <ul>
               <li>
@@ -69,7 +103,7 @@ export default function about() {
               <div style={{ height: "15px" }}></div>
             </ul>
           </h2>
-        </div>
+        </div> */}
       </div>
     </div>
   );

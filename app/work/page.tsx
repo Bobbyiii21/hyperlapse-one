@@ -11,6 +11,7 @@ export default function projects() {
       <div style={{ height: "15px" }}></div>
       <div className="lg:mx-52 ">
         <ul className="">
+          
           <li>
             <div className="rounded-lg bg-[#111] p-4 border-1 border-neutral-500">
               <h2 className="text-3xl leading-relaxed font-semibold">
@@ -27,6 +28,30 @@ export default function projects() {
               <a href="Bobby_Stephens_Resume.pdf">
                   <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
                     View my Resume →
+                  </button>
+                </a>{" "}
+              </div>
+              {/* <div style={{ height: "15px" }}></div> */}
+            </div>
+          </li>
+          <div style={{ height: "25px" }}></div>
+          <li>
+            <div className="rounded-lg bg-[#111] p-4 border-1 border-neutral-500">
+              <h2 className="text-3xl leading-relaxed font-semibold">
+                Shortkey - ECE Discovery Project
+              </h2>
+              <div style={{ height: "15px" }}></div>
+              <h2 className="text-lg md:text-2xl leading-relaxed">
+              ShortKey is an innovative Python application designed to help users learn and
+master keyboard shortcuts through real-time monitoring and feedback. The
+application intercepts keyboard input while allowing normal keyboard usage,
+providing an interactive learning experience directly in the terminal.
+              </h2>
+              <div style={{ height: "15px" }}></div>
+              <div className="flex justify-end">
+              <a href="https://github.com/Bobbyiii21/Shortkey-Linux">
+                  <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
+                    View Github →
                   </button>
                 </a>{" "}
               </div>

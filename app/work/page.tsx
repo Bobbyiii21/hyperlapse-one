@@ -1,3 +1,4 @@
+
 import React from "react";
 
 export default function projects() {
@@ -49,9 +50,9 @@ providing an interactive learning experience directly in the terminal.
               </h2>
               <div style={{ height: "15px" }}></div>
               <div className="flex justify-end">
-              <a href="https://github.com/Bobbyiii21/Shortkey-Linux">
+              <a href="/work/Shortkey">
                   <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
-                    View Github →
+                    View Page →
                   </button>
                 </a>{" "}
               </div>

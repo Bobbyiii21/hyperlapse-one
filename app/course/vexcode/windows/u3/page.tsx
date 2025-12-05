@@ -12,7 +12,7 @@ export default function Home() {
         </h2>
       </div>
       <div style={{ height: "25px" }} />
-      <video src={VexCode_Win_Vid3} className="z-0 px-12 " />
+      <video src={VexCode_Win_Vid3} controls className="z-0 px-12 " />
       <div style={{ height: "25px" }} />
     </section>
   );

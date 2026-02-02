@@ -39,6 +39,28 @@ export default function projects() {
           <li>
             <div className="rounded-lg bg-[#111] p-4 border-1 border-neutral-500">
               <h2 className="text-3xl leading-relaxed font-semibold">
+                GT Movie Store
+              </h2>
+              <div style={{ height: "15px" }}></div>
+              <h2 className="text-lg md:text-2xl leading-relaxed">
+              GT Movie Store is a full-stack web application that allows users to browse, review, and purchase movies.
+              Developed using Django, SQLite, and Bootstrap.
+              </h2>
+              <div style={{ height: "15px" }}></div>
+              <div className="flex justify-end">
+              <a href="/work/moviestore">
+                  <button className="rounded-lg text-lg bg-neutral-700 p-3 hover:bg-black hover:border-neutral-500 border-1">
+                    View Page →
+                  </button>
+                </a>{" "}
+              </div>
+              {/* <div style={{ height: "15px" }}></div> */}
+            </div>
+          </li>
+          <div style={{ height: "25px" }}></div>
+          <li>
+            <div className="rounded-lg bg-[#111] p-4 border-1 border-neutral-500">
+              <h2 className="text-3xl leading-relaxed font-semibold">
                 Shortkey - ECE Discovery Project
               </h2>
               <div style={{ height: "15px" }}></div>

@@ -1,5 +1,5 @@
 import "./page.css";
-let VexCode_Win_Vid1 = 'https://firebasestorage.googleapis.com/v0/b/hyperlapseone.appspot.com/o/Video%201.mp4?alt=media&token=c3832e45-a976-498d-b2f5-b4c4275fa077';
+const VexCode_Win_Vid1 = 'https://firebasestorage.googleapis.com/v0/b/hyperlapseone.appspot.com/o/Video%201.mp4?alt=media&token=c3832e45-a976-498d-b2f5-b4c4275fa077';
 
 export default function Home() {
   return (

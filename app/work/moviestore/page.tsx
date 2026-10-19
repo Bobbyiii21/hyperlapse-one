@@ -2,7 +2,7 @@
 import React from "react";
 import AccordionItem from "./Accordion";
 
-let Demo_Video = 'https://firebasestorage.googleapis.com/v0/b/hyperlapseone.appspot.com/o/GT_Movie_Demo.mp4?alt=media&token=182c8d1a-e329-4d65-a9ce-5d74760ae469';
+const Demo_Video = 'https://firebasestorage.googleapis.com/v0/b/hyperlapseone.appspot.com/o/GT_Movie_Demo.mp4?alt=media&token=182c8d1a-e329-4d65-a9ce-5d74760ae469';
 
 export default function MovieStore() {
   return (
@@ -66,7 +66,7 @@ export default function MovieStore() {
             <p>
               This architecture allows for developers to maintain a clean,
               modular codebase that is easy to extend and modify as needed. By
-              leveraging Django's robust framework and adhering to best
+              leveraging Django&apos;s robust framework and adhering to best
               practices for organization and design, we can build a scalable and
               reliable e-commerce platform.
             </p>

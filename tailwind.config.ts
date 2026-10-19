@@ -1,16 +1,17 @@
-import { nextui } from "@nextui-org/react"
-import type { Config } from "tailwindcss"
+import { heroui } from "@heroui/react";
+import animate from "tailwindcss-animate";
+import type { Config } from "tailwindcss";
 
 const config = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
-    './node_modules/@nextui-org/theme/dist/components/button.js',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+    "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@heroui/theme/dist/components/button.js",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -75,8 +76,14 @@ const config = {
           to: { opacity: "1" },
         },
         "rainbow-to-dark": {
-          from: { 'background-size': '200% 200%', 'background-position': 'left center' },
-          to: { 'background-size': '200% 200%', 'background-position': 'right center' },
+          from: {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          to: {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
         },
       },
       animation: {
@@ -87,7 +94,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"),nextui()],
-} satisfies Config
+  plugins: [animate, heroui()],
+} satisfies Config;
 
-export default config
+export default config;

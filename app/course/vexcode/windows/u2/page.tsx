@@ -1,6 +1,6 @@
 import React from "react";
 import "./page.css";
-let VexCode_Win_Vid2 = 'https://firebasestorage.googleapis.com/v0/b/hyperlapseone.appspot.com/o/Video%202.mp4?alt=media&token=216f0970-cdd4-4d77-b981-4df67ef71fad'
+const VexCode_Win_Vid2 = 'https://firebasestorage.googleapis.com/v0/b/hyperlapseone.appspot.com/o/Video%202.mp4?alt=media&token=216f0970-cdd4-4d77-b981-4df67ef71fad'
 
 
 export default function Home() {
